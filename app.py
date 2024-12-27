@@ -80,20 +80,15 @@ def display_results():
     fig = create_results_visualization(normalized_scores)
     st.plotly_chart(fig)
     
-    st.write("## Next Steps")
-    st.write("""
-    1. Research your top matches in detail
-    2. Connect with professionals in these roles
-    3. Explore required skills and certifications
-    4. Consider taking relevant online courses
-    """)
+    st.write("## Need more guidance?")
+    st.link_button("Book a 1:1 mentorship call", "https://topmate.io/marina_wyss/", type="primary")
 
 def main():
     st.set_page_config(page_title="Data Career Quiz", page_icon="📊", layout="wide")
     
-    st.title("Data Career Path Quiz")
+    st.title("Data/Engineering Career Path Quiz")
     st.write("""
-    Discover which data/engineering career path best matches your interests, skills, and working style.
+    Discover which data/engineering career path best matches your interests, skills, and working style.\n\n
     Answer the following questions to get personalized career recommendations.
     """)
     

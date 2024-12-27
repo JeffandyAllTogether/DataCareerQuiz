@@ -7,34 +7,34 @@ CAREERS = {
 }
 
 CAREER_DESCRIPTIONS = {
-    'SWE': """Software Engineers focus on building and maintaining software applications. They excel in:
-    • Writing production-grade code
-    • Building user-facing applications
-    • System design and architecture
+    'SWE': """Software Engineers focus on building and maintaining software applications. They excel in:\n
+    • Writing production-grade code\n
+    • Building user-facing applications\n
+    • System design and architecture\n
     • Working with clear objectives and concrete solutions""",
     
-    'Data Scientist': """Data Scientists combine statistics, mathematics, and programming to extract insights. They excel in:
-    • Advanced statistical analysis
-    • Research and exploration
-    • Working with ambiguous problems
+    'Data Scientist': """Data Scientists combine statistics, mathematics, and programming to extract insights. They excel in:\n
+    • Advanced statistical analysis\n
+    • Research and exploration\n
+    • Working with ambiguous problems\n
     • Developing novel methodologies""",
     
-    'Data Analyst': """Data Analysts transform data into actionable insights. They excel in:
-    • Business analysis
-    • Data visualization
-    • Stakeholder communication
+    'Data Analyst': """Data Analysts transform data into actionable insights. They excel in:\n
+    • Business analysis\n
+    • Data visualization\n
+    • Stakeholder communication\n
     • Quick, impactful solutions""",
     
-    'Data Engineer': """Data Engineers build and maintain data infrastructure. They excel in:
-    • Pipeline development
-    • System architecture
-    • Data quality and reliability
+    'Data Engineer': """Data Engineers build and maintain data infrastructure. They excel in:\n
+    • Pipeline development\n
+    • System architecture\n
+    • Data quality and reliability\n
     • Infrastructure optimization""",
     
-    'MLE': """Machine Learning Engineers focus on deploying ML systems to production. They excel in:
-    • Model deployment
-    • System optimization
-    • Production ML systems
+    'MLE': """Machine Learning Engineers focus on deploying ML systems to production. They excel in:\n
+    • Model deployment\n
+    • System optimization\n
+    • Production ML systems\n
     • Scalable solutions"""
 }
 
@@ -112,7 +112,7 @@ QUESTIONS = {
         }
     },
     "career_importance": {
-        "question": "What's most important in your first 5 years?",
+        "question": "What's most important in your first five years?",
         "options": {
             "Maximizing earning potential": {"MLE": 2, "SWE": 2},
             "Building broad, versatile skills": {"Data Scientist": 1, "Data Analyst": 1},
